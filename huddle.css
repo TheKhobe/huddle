@@ -86,7 +86,7 @@ button{
     background-color: hsl(257, 40%, 49%);
     width: 380px;
     margin-left: 20px;
-    height: auto;
+    height: 100vh;
  }
  .col{
   display: grid;
