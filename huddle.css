@@ -1,0 +1,125 @@
+main{
+ background-image: url('images/bg-desktop.svg');
+ background-color: hsl(257, 40%, 49%);
+ height: 100vh;
+}
+.col{
+ display: flex;
+ align-items: center;
+}
+.mockup{
+ margin-left: 60px;
+ margin-top: 70px;
+}
+.mockup img {
+ width: 540px;
+}
+h2{
+ color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+ color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+ background-color: white;
+ color: hsl(257, 40%, 49%);
+ width: 180px;
+ box-shadow: 0px 2px 2px 2px rgb(74, 73, 73);
+ height: 45px;
+  font-family: 'Poppins', sans-serif;
+ border-radius: 26px;
+ border: none;
+}
+.tedX{
+ margin-left: 80px;
+}
+.fa-facebook{
+ background-color: transparent;
+ border-radius: 30px;
+ color: #fff;
+ display: inline-block;
+ height: 30px;
+ line-height: 30px;
+ border: 1px solid rgb(186, 182, 182);
+ margin: auto;
+ width: 30px;
+ font-size: 15px;
+ text-align: center;
+}
+.fa-twitter {
+ background-color: transparent;
+ border-radius: 30px;
+ color: #fff;
+ display: inline-block;
+ height: 30px;
+ line-height: 30px;
+ border: 1px solid rgb(186, 182, 182);
+ margin: auto;
+ width: 30px;
+ font-size: 15px;
+ text-align: center;
+}
+.fa-instagram {
+ background-color: transparent;
+ border-radius: 30px;
+ color: #fff;
+ display: inline-block;
+ height: 30px;
+ line-height: 30px;
+ border: 1px solid rgb(186, 182, 182);
+ margin: auto;
+ width: 30px;
+ font-size: 15px;
+ text-align: center;
+}
+.social-icons{
+ float: right;
+ margin-right: 30px;
+}
+
+@media screen and (max-width:675px){
+  main {
+    background-image: url('images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    width: 380px;
+    margin-left: 40px;
+    height: 180vh;
+ }
+ .col{
+  display: grid;
+ }
+ .mockup{
+  margin-left:40px;
+  margin-top: 70px;
+ }
+ .mockup img{
+  width: 300px;
+ }
+  h2 {
+   color: #fff;
+   text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+ .tedX{
+  margin-left: 10px;
+  margin-top: 40px;
+ }
+  p {
+   color: #fff;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+  }
+    button {
+     margin-left: 100px;
+     margin-top: 70px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .social-icons{
+     margin-top: 100px;
+     float: left;
+     margin-left: 150px;
+    }
+}
